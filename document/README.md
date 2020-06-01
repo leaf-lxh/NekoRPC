@@ -1,3 +1,3 @@
 # NekoRPC Document
-For usage of client and gateway, see [client.md](client.md) and [gateway.md](gateway.md).
+For usage of service and , see [service.md](client.md) and [interface.md](gateway.md).
 For development manual, see [dev](dev).
