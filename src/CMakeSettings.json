@@ -1,7 +1,7 @@
 ﻿{
   "configurations": [
     {
-      "name": "Linux-Clang-Debug",
+      "name": "Linux-x64-Debug",
       "generator": "Ninja",
       "configurationType": "Debug",
       "cmakeExecutable": "/usr/bin/cmake",
@@ -19,7 +19,13 @@
       "remoteCopyBuildOutput": false,
       "remoteCopySourcesMethod": "rsync",
       "addressSanitizerRuntimeFlags": "detect_leaks=0",
-      "variables": []
+      "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS_DEBUG",
+          "value": "-g",
+          "type": "STRING"
+        }
+      ]
     }
   ]
 }
